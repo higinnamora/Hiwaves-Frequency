@@ -118,6 +118,9 @@ a {
 .dark .main__description p:hover {
   color: var(--white);
 }
+.dark .main__card:hover {
+  box-shadow: none;
+}
 /* Main */
 .main__card {
   max-width: 304px;
@@ -157,4 +160,9 @@ a {
 .home {
   display: flex;
   justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .container--flex {
+    justify-content: space-between;
+  }
 }
