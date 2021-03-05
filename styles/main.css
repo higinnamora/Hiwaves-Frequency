@@ -1,9 +1,8 @@
 :root {
-  --first-color: ;
-  --second-color: ;
-  --white: ;
-  --black:
-  
+  --first-color: #a4eb9b;
+  --second-color: #685dae;
+  --white: #fff;
+  --black: #000;
 }
 * {
   margin: 0px;
@@ -17,4 +16,36 @@ html {
 body {
   font-size: 1.6rem;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+}
+h1, h2, p {
+  margin: 0;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  padding: 2.0rem;
+}
+/* Header */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__logo {
+  display: flex;
+  align-items: center;
+}
+.nav__logo p {
+  margin-left: 2rem;
+  font-weight: bold;
+}
+.nav__logo img {
+  width: 5.0rem;
 }
