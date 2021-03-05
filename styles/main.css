@@ -31,6 +31,7 @@ img {
 }
 .container {
   padding: 2.0rem;
+  max-width: 944px;
 }
 /* Header */
 .nav {
@@ -43,7 +44,7 @@ img {
   align-items: center;
 }
 .nav__logo p {
-  margin-left: 2rem;
+  margin: 0 1rem;
   font-weight: bold;
 }
 .nav__logo img {
