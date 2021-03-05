@@ -106,9 +106,13 @@ a {
 .dark a {
   color: var(--white);
 }
+.dark .main__description p:hover {
+  color: var(--white);
+}
 /* Main */
 .main__card {
   max-width: 304px;
+  min-width: 280px;
   border-radius: 12px;
   margin-bottom: 24px;
   padding: 8px;
