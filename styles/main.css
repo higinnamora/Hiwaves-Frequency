@@ -8,6 +8,15 @@
   --shadow-dark: 10px 10px 20px rgba(170, 170, 170, .16);
   --shadow-Light: 10px 10px 20px rgba(0,0,0,.16);
 }
+/* Breakpoints */
+  /* 
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px
+  */
 * {
   margin: 0px;
   padding: 0px;
@@ -139,4 +148,9 @@ a {
 }
 .main__image img {
   width: 100px;
+}
+.container--flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
